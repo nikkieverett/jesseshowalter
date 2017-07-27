@@ -1,0 +1,66 @@
+/*section 1 background  image*/
+@import 'variables';
+
+.background-image{
+  background-image: url("http://www.jesseshowalter.com/assets/images/jesse-jump.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 700px;
+  position: relative;
+}
+.background {
+  background-color: $opaque-black;
+  position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+/*section 1 text*/
+.container {
+  margin: 80px auto 0 auto;
+  max-width: 1300px;
+  padding: 120px 0 0 0;
+  text-align: center;
+}
+.header1 {
+  color: #fff;
+  font-weight: 100;
+  font-family: $main-font;
+  font-size: 3.2rem;
+  line-height: 4rem;
+  text-align: center;
+  text-transform: uppercase;
+  span {
+    border-bottom: dotted 1px white;
+  }
+}
+
+
+.header2 {
+  color: #fff;
+  font-family: $secondary-font;
+  font-size: 1.3rem;
+  font-weight: 100;
+  line-height: 2.3rem;
+  margin: 3% auto 3%;
+  max-width: 80%;
+}
+.button a {
+  border: 3px $yellow solid;
+  border-radius: 2px;
+  color: white;
+  font-family: $secondary-font;
+  font-size: 20px;
+  font-weight: 100;
+  letter-spacing: .6px;
+  line-height: 20px;
+  margin-top: 13px;
+  padding: 22.4px 64px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.button a:hover {
+  color: $button-hover-font;
+  background: $button-hover;
+}
